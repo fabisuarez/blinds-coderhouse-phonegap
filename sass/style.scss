@@ -1,0 +1,168 @@
+@import "reset";
+@import "variables";
+body{
+    font-family: $font-family;
+    font-size: 16px;
+}
+.Container{
+    width: 100%;
+    background: red;
+}
+.line-grey{
+    border-bottom: 4px solid $gris_claro;
+    display: block;
+    margin: 25px 0;
+}
+.Header{
+    background: $gris_oscuro;
+    padding: 25px;
+    overflow: hidden;
+    h1{
+        color: #fff;
+        font-size: 25px;
+        float: left;
+    }
+    a{
+        span{
+            color: #fff;
+            float: right;
+            font-size: 30px;
+            padding: 5px;
+        }
+    }
+}
+
+.Slider{
+    &-img{
+        width: 100%;
+        display: block;
+    }
+}
+
+.Navegacion{
+    &-menu{
+        li{
+            a{
+                padding: 25px;
+                color: #fff;
+                font-size: 40px;
+                text-decoration: none;
+                display: block;
+                font-weight: lighter;
+                span{
+                    margin-right: 25px;
+                }
+            }
+        }
+    }
+}
+
+.colorAbout{
+    background: $colorAbout;
+}
+.colorFaq{
+    background: $colorFaq;
+}
+.color404{
+    background: $color404;
+}
+.colorPortfolioOne{
+    background: $colorPortfolioOne;
+}
+.colorPortfolioTwo{
+    background: $colorPortfolioTwo;
+}
+.colorFPortfolioOne{
+    background: $colorFPortfolioOne;
+}
+.colorFPortfolioTwo{
+    background: $colorFPortfolioTwo;
+}
+.colorSingleProyect{
+    background: $colorSingleProyect;
+}
+.colorBlog{
+    background: $colorBlog;
+}
+.colorSinglePost{
+    background: $colorSinglePost;
+}
+.colorContact{
+    background: $colorContact;
+}
+
+.Content{
+    padding: 30px 20px;
+    background: $gris_claro;
+}
+
+.About{
+    padding: 10px 15px;
+    background: #fff;
+    h2{
+        padding: 20px 0 0 0;
+        font-weight: bold;
+    }
+    p{
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+.Footer{
+    background: $gris_oscuro;
+    padding: 25px;
+    p{
+        color: #fff;
+    }
+}
+
+.Columns{
+    &-row-50{
+        width: 48%;
+        display: inline-block;
+    }
+    &-row-33{
+        width: 32%;
+        display: inline-block;
+    }
+    h3{
+        padding: 20px 0;
+        font-weight: bold;
+    }
+}
+
+.Boxes{
+    border-radius: 10px;
+    padding: 20px;
+    overflow: hidden;
+    margin: 20px 0;
+    span{
+        font-size: 30px;
+        float: left;
+    }
+    p{
+        border-left: 1px solid #000;
+        padding-left: 15px;
+        margin-left: 15px;
+        float: left;
+        width: 80%;
+        margin-bottom: 0px;
+    }
+    a{
+        float: right;
+        text-decoration: none;
+        color: #000;
+    }
+}
+
+.Highlighted{
+    p{
+        padding: 20px 0;
+        span{
+            color: #fff;
+            padding: 0px 5px;
+        }
+    }
+}
